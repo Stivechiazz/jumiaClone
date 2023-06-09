@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.phones {
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.phones div {
+    width: 20%;
+    height: 65%;
+    background-color: azure;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.phones img {
+    width: 85%;
+    height: 70%;
+}
+.phones #phone1 {
+    padding: 10px 10px 10px 10px;
+}
+.phones h4 {
+    font-size: 28px;
+    color: grey;
+    margin-left: 20px;
+}
+.phones p {
+    margin-left: 20px;
+    padding: 2px;
+}
+#original1,#original2,#original3,#original4, {
+    color: grey;
+    text-decoration: line-through;
+}
+
